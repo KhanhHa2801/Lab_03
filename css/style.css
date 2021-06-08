@@ -1,0 +1,137 @@
+body{
+    background-color: #082543;
+    font-family: "#9Slide03 Cabin Medium";
+    text-align: center;
+    line-height: 1.0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    top: 0;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: #001845;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.header .h_left{
+    float: left;
+    width: calc(30% - 70px);
+    padding: 10px 0 0 70px;
+    text-align: left;
+}
+.h_left a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.header .h_right{
+    float: right;
+    width: calc(70% - 70px);
+    text-align: right;
+    color: white;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+.h_right a{
+    color: lightblue;
+}
+.h_right a span{
+    color: white;
+}
+
+.wrapper{
+    width: calc(100% - 140px);
+    padding: 0 70px;
+    margin-top: 100px;
+}
+.wrapper .row{
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+.row h3{
+    text-align: left;
+    color: lightblue;
+}
+.row .content{
+    width: 25%;
+    float: left;
+    margin-bottom: 70px;
+    color: white;
+    text-align: center;
+}
+
+
+.content h4{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.content p{
+    font-size: 12px;
+}
+.content img{
+    border-radius: 15px;
+    display: block;
+    width: calc(100% - 40px);
+    padding: 0 10px;
+    height: auto;
+}
+@media(max-width: 700px) {
+    .row .content{
+        float: left;
+        width: 100%;
+    }
+}
+
+.row ul li{
+    display: inline-block;
+    width: auto;
+}
+.row ul li a{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.wrapper .trendsong{
+    margin-top: 70px;
+    width: 100%;
+    float: left;
+    border-top: 1px solid lightblue;
+    color: white;
+    text-align: center;
+    display: block;
+
+}
+.trendsong h2{
+    color: lightblue;
+    text-align: center;
+}
+
+.footer{
+    float: left;
+    width: calc(100% - 140px);
+    padding: 0 70px;
+    margin-top: 70px;
+    background-color: #082543;
+    text-align: left;
+}
+.footer .cont{
+    width: calc(33.33% - 20px);
+    float: left;
+    padding-left: 20px;
+    border-top: 1px solid lightblue;
+}
+.cont h4{
+    color: lightblue;
+}
+.cont p{
+
+    color: white;
+}
+
